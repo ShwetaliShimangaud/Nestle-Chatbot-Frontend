@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     sourcemap: true,  // <-- Enable source maps in production build
   },
-  base: '/react-frontend-shwetali/', 
+  base: '', 
 })
