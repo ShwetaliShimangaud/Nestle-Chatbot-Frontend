@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import ReactMarkdown from "react-markdown";
 
 export default function App() {
   const localpath = "http://localhost:8000/api/chat"
