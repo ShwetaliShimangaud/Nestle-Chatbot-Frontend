@@ -26,7 +26,7 @@ export default function App() {
     setInput("");
 
     try {
-      const response = await fetch(localpath, {
+      const response = await fetch(cloudpath, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
